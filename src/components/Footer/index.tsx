@@ -56,7 +56,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
+              <a href="mailto:l.jlgrowthdigital@gmail.com">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </Col>
@@ -75,9 +75,9 @@ const Footer = ({ t }: { t: TFunction }) => {
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Para>Rua teste</Para>
+              <Para>numero 2233</Para>
+              <Para>Pais e estado teste</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
@@ -100,6 +100,14 @@ const Footer = ({ t }: { t: TFunction }) => {
                 <LanguageSwitch onClick={() => handleChange("es")}>
                   <SvgIcon
                     src="spain.svg"
+                    aria-label="homepage"
+                    width="30px"
+                    height="30px"
+                  />
+                </LanguageSwitch>
+                <LanguageSwitch onClick={() => handleChange("pt")}>
+                  <SvgIcon
+                    src="brasil.svg"
                     aria-label="homepage"
                     width="30px"
                     height="30px"
@@ -129,33 +137,21 @@ const Footer = ({ t }: { t: TFunction }) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
+                href="#"
                 src="github.svg"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
+                href="#"
                 src="twitter.svg"
               />
               <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
+                href="#"
                 src="linkedin.svg"
               />
               <SocialLink
-                href="https://medium.com/@lashakakabadze/"
+                href="#"
                 src="medium.svg"
               />
-              <a
-                href="https://ko-fi.com/Y8Y7H8BNJ"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  height="36"
-                  style={{ border: 0, height: 36 }}
-                  src="https://storage.ko-fi.com/cdn/kofi3.png?v=3"
-                  alt="Buy Me a Coffee at ko-fi.com"
-                />
-              </a>
             </FooterContainer>
           </Row>
         </Container>

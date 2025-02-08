@@ -1,16 +1,16 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Proven Methodologies, Automated Excellence",
+  "text": "Our platform codifies industry-leading frameworks into actionable workflows:",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "title": "5W2H Automation",
+      "content": "Automated root cause analysis with dynamic What-Why-When-Where-Who-How-How Much templates for continuous improvement cycles.",
+      "icon": "5w2h.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "title": "SIPOC Optimization",
+      "content": "AI-powered Suppliers-Inputs-Process-Outputs-Customers mapping with predictive bottleneck identification.",
+      "icon": "sipoc.svg"
     }
   ]
 }

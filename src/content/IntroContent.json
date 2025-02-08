@@ -1,13 +1,13 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Industrial Process Automation & Consulting Solutions",
+  "text": "Transform your manufacturing operations with AI-driven process auditing powered by 5W2H and SIPOC methodologies. Reduce human error by 78% and accelerate compliance processes with our automated consulting platform.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Request Demo",
+      "color": "#fff"
     },
     {
-      "title": "Learn more",
-      "color": "#fff"
+      "title": "Methodology Guide"
     }
   ]
 }

@@ -4,6 +4,7 @@ import XHR from "i18next-xhr-backend";
 
 import translationEn from "./locales/en/translation.json";
 import translationEs from "./locales/es/translation.json";
+import translationPtBr from "./locales/pt-br/translation.json";
 
 i18n
   .use(XHR)
@@ -13,7 +14,7 @@ i18n
     lng: "en",
     fallbackLng: "en",
 
-    keySeparator: false,
+    //keySeparator: false,
     interpolation: {
       escapeValue: false,
     },
@@ -25,9 +26,13 @@ i18n
       es: {
         translations: translationEs,
       },
+      pt: {
+        translations: translationPtBr,
+      },
     },
     ns: ["translations"],
     defaultNS: "translations",
+
   });
 
 export default i18n;
